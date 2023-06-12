@@ -25,4 +25,7 @@ export default {
   <PageFooter />
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@use './styles/partials/variables.scss' as *;
+@use './styles/general.scss' as *;
+</style>
