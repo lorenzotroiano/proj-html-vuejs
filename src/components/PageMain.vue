@@ -1,8 +1,48 @@
 <script>
-
+import SingleSquare from './SingleSquare.vue';
 export default {
 
-    name: "PageMain"
+    name: "PageMain",
+
+    components: {
+        SingleSquare
+    },
+
+    data() {
+        return {
+            squares: [
+                {
+                    img: "h5-custom-icon-1.png",
+                    name: "Languages"
+                },
+
+                {
+                    img: "h5-custom-icon-2.png",
+                    name: "Software"
+                },
+
+                {
+                    img: "h5-custom-icon-3.png",
+                    name: "Business"
+                },
+
+                {
+                    img: "h5-custom-icon-4.png",
+                    name: "Chemistry"
+                },
+
+                {
+                    img: "h5-custom-icon-5.png",
+                    name: "Science"
+                },
+
+                {
+                    img: "h5-custom-icon-6.png",
+                    name: "Diy&Craft"
+                },
+            ]
+        }
+    }
 
 }
 
@@ -11,37 +51,7 @@ export default {
 <template>
     <!-- section con gli square azzurrini -->
     <section class="custom">
-        <div>
-            <img src="../../public/img/h5-custom-icon-1.png" alt="">
-            <h3>ciao</h3>
-        </div>
-
-        <div>
-            <img src="../../public/img/h5-custom-icon-2.png" alt="">
-            <h3>ciao</h3>
-        </div>
-
-        <div>
-            <img src="../../public/img/h5-custom-icon-3.png" alt="">
-            <h3>ciao</h3>
-        </div>
-
-        <div>
-            <img src="../../public/img/h5-custom-icon-4.png" alt="">
-            <h3>ciao</h3>
-        </div>
-
-
-        <div>
-            <img src="../../public/img/h5-custom-icon-5.png" alt="">
-            <h3>ciao</h3>
-        </div>
-
-
-        <div>
-            <img src="../../public/img/h5-custom-icon-6.png" alt="">
-            <h3>ciao</h3>
-        </div>
+        <SingleSquare v-for="square in squares" :detailsSquare="square" />>
     </section>
 
 
@@ -57,7 +67,7 @@ export default {
 
     </section>
     <div>
-        <img class="img-tutoring" src="../../public/img/h5-img-1.jpg" alt="">
+        <img class="img-tutoring" src="../../public/h5-img-1.jpg" alt="">
 
         <div class="square">
             <i class="fa-solid fa-angle-up"></i>
@@ -71,7 +81,7 @@ export default {
         <section class="events">
 
             <div>
-                <img src="../../public/img/h1-img-8.jpg" alt="">
+                <img src="../../public/h1-img-8.jpg" alt="">
             </div>
 
             <div class="container-empowering">
@@ -106,7 +116,7 @@ export default {
 
     <div class="container-testimonial">
         <section class="testimonials">
-            <img src="../../public/img/testimonials-standard-2.png" alt="">
+            <img src="../../public/testimonials-standard-2.png" alt="">
             <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, harum ipsa. Sed nam libero ipsam, iure
                 earum quaerat ab rerum ut repellendus quos error fugiat porro quod ipsa beatae qui."</p>
             <h2>John Travolta</h2>
@@ -138,7 +148,7 @@ export default {
                     <span><i class="fa-solid fa-check"></i> We are the champion We are the champion,We are the
                         champion</span>
 
-                    <img src="../../public/img/h12-tabs-icon-1.png" alt="">
+                    <img src="../../public/h12-tabs-icon-1.png" alt="">
                 </div>
             </div>
 
@@ -164,18 +174,7 @@ export default {
     display: flex;
     justify-content: space-around;
 
-    div {
-        background-color: $coloreSecondario;
-        border: 1px solid $coloreBordoPrim;
-        padding: 40px;
 
-
-        text-align: center;
-
-        h3 {
-            margin-top: 20px;
-        }
-    }
 
 }
 
@@ -284,7 +283,7 @@ div {
 }
 
 .container-testimonial {
-    background-image: url(../../public/img/h5-parallax-img-1.png);
+    background-image: url(../../public/h5-parallax-img-1.png);
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: top;
