@@ -161,7 +161,7 @@ header {
 
   button {
     border: 0px;
-    background-color: aqua;
+    background-color: $colorePrimario;
     padding: 20px;
     width: 200px;
 

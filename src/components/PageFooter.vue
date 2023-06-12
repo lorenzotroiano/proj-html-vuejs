@@ -12,5 +12,7 @@ export default {
     <h2>ciao footer</h2>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use '../styles/partials/variables.scss' as *;
+</style>
 
