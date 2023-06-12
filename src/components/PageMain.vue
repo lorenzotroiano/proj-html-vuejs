@@ -67,7 +67,7 @@ export default {
 
     </section>
     <div>
-        <img class="img-tutoring" src="../../public/h5-img-1.jpg" alt="">
+        <img class="img-tutoring" src="../../public/img/h5-img-1.jpg" alt="">
 
         <div class="square">
             <i class="fa-solid fa-angle-up"></i>
@@ -81,7 +81,7 @@ export default {
         <section class="events">
 
             <div>
-                <img src="../../public/h1-img-8.jpg" alt="">
+                <img src="../../public/img/h1-img-8.jpg" alt="">
             </div>
 
             <div class="container-empowering">
@@ -116,7 +116,7 @@ export default {
 
     <div class="container-testimonial">
         <section class="testimonials">
-            <img src="../../public/testimonials-standard-2.png" alt="">
+            <img src="../../public/img/testimonials-standard-2.png" alt="">
             <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, harum ipsa. Sed nam libero ipsam, iure
                 earum quaerat ab rerum ut repellendus quos error fugiat porro quod ipsa beatae qui."</p>
             <h2>John Travolta</h2>
@@ -148,7 +148,7 @@ export default {
                     <span><i class="fa-solid fa-check"></i> We are the champion We are the champion,We are the
                         champion</span>
 
-                    <img src="../../public/h12-tabs-icon-1.png" alt="">
+                    <img src="../../public/img/h12-tabs-icon-1.png" alt="">
                 </div>
             </div>
 
@@ -283,7 +283,7 @@ div {
 }
 
 .container-testimonial {
-    background-image: url(../../public/h5-parallax-img-1.png);
+    background-image: url(../../public/img/h5-parallax-img-1.png);
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: top;
@@ -334,7 +334,9 @@ div {
 
         }
 
-        .list-group:hover li {
+
+
+        .list-group>li:hover {
             border-left: 10px solid $colorePrimario;
             color: $colorePrimario;
         }

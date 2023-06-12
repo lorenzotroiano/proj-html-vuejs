@@ -16,7 +16,7 @@ export default {
 <template>
     <div>
         <img :src="`../../public/img/` + detailsSquare.img" alt="">
-        <h3>{{ detailsSquare.name }}</h3>
+        <h5>{{ detailsSquare.name }}</h5>
     </div>
 </template>
 
@@ -31,7 +31,7 @@ div {
 
     text-align: center;
 
-    h3 {
+    h5 {
         margin-top: 20px;
     }
 }
