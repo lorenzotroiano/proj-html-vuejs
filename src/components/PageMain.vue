@@ -71,7 +71,7 @@ export default {
 
         <div class="square">
             <i class="fa-solid fa-angle-up"></i>
-            <span>
+            <span style="color: white;">
                 TOP
             </span>
         </div>
@@ -107,7 +107,7 @@ export default {
 
         <div class="square">
             <i class="fa-solid fa-angle-up"></i>
-            <span>
+            <span style="color: white;">
                 TOP
             </span>
         </div>
@@ -156,7 +156,7 @@ export default {
         </section>
         <div class="square-top">
             <i class="fa-solid fa-angle-up"></i>
-            <span>
+            <span style="color: white;">
                 TOP
             </span>
         </div>
@@ -184,7 +184,7 @@ export default {
                     <div class="under-select">
                         <div class="label">
                             <h4>Titolo</h4>
-                            <span>Free</span>
+                            <span style="color: white;">Free</span>
                         </div>
                         <span>David Sander</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod culpa est, necessitatibus vitae
@@ -200,7 +200,7 @@ export default {
                     <div class="under-select">
                         <div class="label">
                             <h4>Titolo</h4>
-                            <span>Free</span>
+                            <span style="color: white;">Free</span>
                         </div>
                         <span>David Sander</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod culpa est, necessitatibus vitae
@@ -216,7 +216,7 @@ export default {
                     <div class="under-select">
                         <div class="label">
                             <h4>Titolo</h4>
-                            <span>Free</span>
+                            <span style="color: white;">20$</span>
                         </div>
                         <span>David Sander</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod culpa est, necessitatibus
@@ -238,13 +238,13 @@ export default {
 
         <div class="square-top">
             <i class="fa-solid fa-angle-up"></i>
-            <span>
+            <span style="color: white;">
                 TOP
             </span>
         </div>
         <div class="square">
             <i class="fa-solid fa-angle-up"></i>
-            <span>
+            <span style="color: white;">
                 TOP
             </span>
         </div>
@@ -352,7 +352,7 @@ export default {
 
         <div class="square">
             <i class="fa-solid fa-angle-up"></i>
-            <span>
+            <span style="color: white;">
                 TOP
             </span>
         </div>
@@ -377,7 +377,7 @@ export default {
 
         <div class="square-top">
             <i class="fa-solid fa-angle-up"></i>
-            <span>
+            <span style="color: white;">
                 TOP
             </span>
         </div>
@@ -408,6 +408,11 @@ export default {
     //     width: 16%;
     // }
 
+    h2 {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
     p {
         margin: 20px 0;
         color: #b9b9b9;
@@ -428,6 +433,9 @@ export default {
 div {
 
     position: relative;
+
+
+
 
     .img-tutoring {
         width: 100%;
@@ -457,6 +465,12 @@ div {
 
 .container-events {
     padding: 100px;
+
+
+    h2 {
+        font-size: 45px;
+        font-weight: bold;
+    }
 }
 
 .events {
@@ -478,7 +492,7 @@ div {
     .container-empowering {
         padding: 70px;
         position: relative;
-        bottom: 45px;
+        bottom: 115px;
 
         p {
             margin: 20px 0;
@@ -569,6 +583,11 @@ div {
         .learning-possib {
             width: 70%;
             line-height: 30px;
+
+            h2 {
+                font-size: 55px;
+                font-weight: bold;
+            }
 
             p {
                 margin-top: 30px;
