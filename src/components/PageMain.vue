@@ -410,6 +410,7 @@ export default {
 
     p {
         margin: 20px 0;
+        color: #b9b9b9;
     }
 
     a {
@@ -481,7 +482,7 @@ div {
 
         p {
             margin: 20px 0;
-
+            color: #b9b9b9;
         }
 
         .container-numbers-events {
@@ -571,6 +572,7 @@ div {
 
             p {
                 margin-top: 30px;
+                color: #b9b9b9;
             }
 
             .check {
@@ -650,6 +652,7 @@ div {
 
             p {
                 font-size: 20px;
+                color: #b9b9b9;
             }
         }
 
@@ -691,6 +694,7 @@ div {
 
                     p {
                         margin: 20px 0;
+                        color: #b9b9b9;
                     }
 
                     span>i {
@@ -739,6 +743,7 @@ div {
 
             p {
                 font-size: 20px;
+                color: #b9b9b9;
             }
         }
 
@@ -747,6 +752,9 @@ div {
             font-size: 20px;
             border-top: 3px solid #40c4ff;
 
+            td {
+                color: #b9b9b9;
+            }
 
             .btn {
                 --bs-btn-border-radius: 0;
@@ -780,6 +788,7 @@ div {
 
         img {
 
+            filter: invert(0100%);
             width: 30px;
         }
     }

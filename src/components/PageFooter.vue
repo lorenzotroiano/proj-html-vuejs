@@ -121,7 +121,23 @@ export default {
 
                 <img src="../../public/img/footer-img-1.png" alt="">
             </div>
+
+
         </div>
+
+        <div class="under-footer">
+            <h6>Copyright 2017 &#169;Mikado Themes</h6>
+
+            <div>
+                <span>CALL +39 1112223456 </span>
+                <span>FOLLOW US</span>
+                <i class="fa-brands fa-twitter" style="color: #b9b9b9;"></i>
+                <i class="fa-brands fa-instagram" style="color: #b9b9b9;"></i>
+                <i class="fa-brands fa-facebook" style="color: #b9b9b9;"></i>
+
+            </div>
+        </div>
+
     </footer>
 </template>
 
@@ -130,25 +146,44 @@ export default {
 
 
 footer {
-    background-color: black;
+    background-color: #222222;
     color: white;
 
+    .under-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        color: #b9b9b9;
+        ;
+
+        span {
+            margin: 0 10px;
+        }
+
+        i {
+            margin: 0 10px;
+        }
+    }
 
     .flex-footer {
+        width: 95%;
+        margin: 0 auto;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding: 105px 0;
+        border-bottom: 0.2px solid $coloreBordoPrim;
 
-
-
-        padding: 70px;
 
         div {
+
 
             display: flex;
             flex-direction: column;
             // align-items: center;
             height: 400px;
+
 
             img {
                 max-width: 300px;
@@ -157,7 +192,7 @@ footer {
             a {
                 text-decoration: none;
                 color: white;
-                padding: 15px;
+                padding: 15px 0;
             }
 
             i {

@@ -26,7 +26,7 @@ a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    padding: 20px;
+    padding: 20px 0;
 
 }
 </style>
